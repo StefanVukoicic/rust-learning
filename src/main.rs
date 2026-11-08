@@ -1,3 +1,5 @@
+const TAX_RATE: f64 = 3.15;
+
 fn main() {
-    println!("Am I a senior Rust dev yet? ^u^");
+    println!("The tax rate is {TAX_RATE}");
 }
