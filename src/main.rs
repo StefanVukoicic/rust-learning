@@ -1,5 +1,9 @@
 fn main() {
-    let mut gym_reps = 0;
-    gym_reps = 14;
-    println!("Did {gym_reps} reps");
+    let coffe_price = 4.99;
+
+    {
+        let cookie_price = 1.99;
+    }
+
+    println!("The cookie price is {cookie_price}");
 }
