@@ -1,5 +1,7 @@
-const TAX_RATE: f64 = 3.15;
+type Meters = i32;
 
+#[allow(unused_variables)]
 fn main() {
-    println!("The tax rate is {TAX_RATE}");
+    let mile_race_length: Meters = 1600;
+    let two_mile_race_length: Meters = 3200;
 }
