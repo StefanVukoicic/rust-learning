@@ -1,4 +1,7 @@
 fn main() {
-    let eight_bit_unsigned: u8 = 255;
-    let eight_bit_signed_: i8 = 255; //cant go over 127
+    println!("Dear Emily, \nHow have you been?");
+    println!("\t Once upon a time");
+    println!("Juliet said \"I love you romeo\"");
+    let filepath = r"C:\My Documents\new\videos";
+    println!("{filepath}");
 }
